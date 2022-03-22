@@ -21,9 +21,7 @@
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 	
-	<context:component-scan base-package="a.b.travel" />
-	<context:component-scan base-package="main" />
-	<context:component-scan base-package="menu.activities" />
+	<context:component-scan base-package="com.korea.travel" />
 	
 	
 	

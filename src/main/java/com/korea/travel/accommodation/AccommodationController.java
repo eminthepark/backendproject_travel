@@ -1,66 +1,65 @@
-package menu.activities;
+package com.korea.travel.accommodation;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-public class ActivitiesController {
-	
-	// 1. 여행지티켓 메인 뷰
-	@RequestMapping("/activities")
+public class AccommodationController {
+
+	// 1. 숙박 메인 뷰
+	@RequestMapping("/accommodation")
 	public ModelAndView mainView() throws Exception {
 		ModelAndView mv = new ModelAndView(); 
-		mv.setViewName("activities/activities_main");
+		mv.setViewName("accommodation/accommodation_main");
 		return mv; 
 	}
-	
 	// 2. 충청도 뷰
-	@RequestMapping("/activities/ccdo")
+	@RequestMapping("/accommodation/ccdo")
 	public ModelAndView ccdoView() throws Exception {
 		ModelAndView mv = new ModelAndView(); 
-		mv.setViewName("activities/activities_ccdo");
+		mv.setViewName("accommodation/accommodation_ccdo");
 		return mv; 
 	}
 	
 	// 3. 경기도 뷰
-	@RequestMapping("/activities/ggdo")
+	@RequestMapping("/accommodation/ggdo")
 	public ModelAndView ggdoView() throws Exception {
 		ModelAndView mv = new ModelAndView(); 
-		mv.setViewName("activities/activities_ggdo");
+		mv.setViewName("accommodation/accommodation_ggdo");
 		return mv; 
 	}
 	
 	// 4. 경상도 뷰
-	@RequestMapping("/activities/gsdo")
+	@RequestMapping("/accommodation/gsdo")
 	public ModelAndView gsdoView() throws Exception {
 		ModelAndView mv = new ModelAndView(); 
-		mv.setViewName("activities/activities_gsdo");
+		mv.setViewName("accommodation/accommodation_gsdo");
 		return mv; 
 	}
 	// 5. 강원도 뷰
-	@RequestMapping("/activities/gwdo")
+	@RequestMapping("/accommodation/gwdo")
 	public ModelAndView gwdoView() throws Exception {
 		ModelAndView mv = new ModelAndView(); 
-		mv.setViewName("activities/activities_gwdo");
+		mv.setViewName("accommodation/accommodation_gwdo");
 		return mv; 
 	}
 	
 	// 6. 제주도 뷰
-	@RequestMapping("/activities/jjdo")
+	@RequestMapping("/accommodation/jjdo")
 	public ModelAndView jjdoView() throws Exception {
 		ModelAndView mv = new ModelAndView(); 
-		mv.setViewName("activities/activities_jjdo");
+		mv.setViewName("accommodation/accommodation_jjdo");
 		return mv; 
 	}
 	
 	// 7.  전라도
-	@RequestMapping("/activities/jldo")
+	@RequestMapping("/accommodation/jldo")
 	public ModelAndView jldoView() throws Exception {
 		ModelAndView mv = new ModelAndView(); 
-		mv.setViewName("activities/activities_jldo");
+		mv.setViewName("accommodation/accommodation_jldo");
 		return mv; 
 	}
-	
-
+		
+		
 }
