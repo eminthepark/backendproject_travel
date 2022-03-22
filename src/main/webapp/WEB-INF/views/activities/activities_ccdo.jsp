@@ -7,6 +7,7 @@
 <title>전국이내손안에 - 충청도여행지티켓</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <link rel="stylesheet" href="http://code.jquery.com/ui/1.8.18/themes/base/jquery-ui.css" type="text/css" />
+<link rel="stylesheet" href="../resources/css/aside.css">
 <link href="<%=request.getContextPath() %>/resources/css/purchaseMenu.css" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="<%=request.getContextPath() %>/resources/js/setMinDate.js"></script>
@@ -110,6 +111,8 @@ input[type='radio'] {
 		<aside class="aside">
 			<jsp:include page="activities_sidebar.jsp"/>
 		</aside>
+	
+		
 		<section>
 	<form action="Purchase.html" class="reserveInput">
 		<table class="tbl">
@@ -126,7 +129,7 @@ input[type='radio'] {
 					<ul>
 						<li>워킹 공룡쇼가 주중에 13시/ 15시/ 17시</li>
 						<li>주말 및 공휴일에 12시/ 14시/ 16시/ 18시에 진행됩니다.</li>
-						<li>공룡과 함께 즐거운 시간 보내러 오세요~</li>
+						<li>공룡공룡과 함께 즐거운 시간 보내러 오세요~</li>
 					</ul>
 				</td>
 				<td>&nbsp;&nbsp;&nbsp;</td>
