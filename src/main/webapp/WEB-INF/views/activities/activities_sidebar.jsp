@@ -4,24 +4,30 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<style>
-ul{
-   list-style:none;
-    list-style-type:none;
-   }
-</style>
+<link rel="stylesheet" href="../../resources/css/sidebarStyle.css">
 </head>
 <body>
 	<div class="aside">
-		<h3>Áö¿ª¼±ÅÃ</h3>
-		<ul>
-			<li><a href="/activities_gwdo.jsp">°­¿øµµ</a></li>
-			<li><a href="/activities_ggdo.jsp">°æ±âµµ</a></li>
-			<li><a href="/activities_gsdo.jsp">°æ»óµµ</a></li>
-			<li><a href="/activities_jldo.jsp">Àü¶óµµ</a></li>
-			<li><a href="/activities_jjdo.jsp">Á¦ÁÖµµ</a></li>
-			<li><a href="/activities_ccdo.jsp">ÃæÃ»µµ</a></li>
-		</ul>
+		<h3>ì§€ì—­ì„ íƒ</h3>
+		<div class="container">
+            <div class="tab-item">
+                <p class="tab-text">ê°•ì›ë„</p>
+            </div>
+            <div class="tab-item">
+                <p class="tab-text">ê²½ê¸°ë„</p>
+            </div>
+            <div class="tab-item">
+                <p class="tab-text">ê²½ìƒë„</p>
+            </div>
+            <div class="tab-item">
+                <p class="tab-text">ì „ë¼ë„</p>
+            </div>
+            <div class="tab-item">
+                <p class="tab-text">ì œì£¼ë„</p>
+            </div><div class="tab-item">
+                <p class="tab-text">ì¶©ì²­ë„</p>
+            </div>
+        </div>
 	</div>
 
 
