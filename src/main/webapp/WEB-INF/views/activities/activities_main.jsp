@@ -83,23 +83,27 @@ margin: auto;
 			</ul>
 		</div>
 	</nav>
-	<div id="title">
+	<header class="title">
 		<br>
 		<br>
 		<!-- <img id="logo" alt="웹사이트 로고" src="logo.jpg"> -->
 		<h1>여행지 티켓 예매</h1>
 		<br>
 		<hr>
-	</div>
+	</header>
 	<br>
-	<div id="selectParent">
+	<!-- <div id="selectParent">
 		&nbsp; <input id="ggdo" class="tab-item" type="button" value="경기도">&nbsp;
 		<input id="gwdo" class="tab-item" type="button" value="강원도">&nbsp;
 		<input id="ccdo" class="tab-item" type="button" value="충청도">&nbsp;
 		<input id="jldo" class="tab-item" type="button" value="전라도">&nbsp;
 		<input id="gsdo" class="tab-item" type="button" value="경상도">&nbsp;
 		<input id="jjdo" class="tab-item" type="button" value="제주도">&nbsp;
-	</div>
+	</div> -->
+	<aside class="aside">
+			<jsp:include page="activities_sidebar.jsp"/>
+		</aside>
+		<section>
 	<br>
 	<table id="mainPara">
 		<tr>
@@ -125,8 +129,12 @@ margin: auto;
 			</td>
 		</tr>
 	</table>
+	</form>
 	<br>
 	<br>
 	<br>
+	</section>
+	<footer class="footer"><jsp:include page="../include/footer.jsp" /></footer>
+	
 </body>
 </html>

@@ -101,24 +101,9 @@
             </div>
     </section>
 
-    <footer class="footer">
-        <div class="footer-cols">
-            <ul>
-                <li>고객센터</li>
-            </ul>
-            <ul>
-                <li>TEL) 070-9999-9999</li>
-            </ul>
-            <ul>
-                <li>FAX) 070-9999-9999</li>
-            </ul>
-            <ul>
-                <li>문의가능시간 : 09:00~ 17:00</li>
-            </ul>
-        </div>
-    </footer>
 
     <script src="js/main.js"></script>
+    <footer class="footer"><jsp:include page="include/footer.jsp" /></footer>
 </body>
 
 </html>

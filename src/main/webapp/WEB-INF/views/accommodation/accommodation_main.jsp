@@ -85,20 +85,24 @@ margin: auto;
     </ul>
 	</div>
 </nav>
-	<div id="title">
+	<header class="title">
 		<br>
 		<h1>숙박예약</h1>
-	</div>
+	</header>
 	<hr>
 	<br>
-	<div id="selectParent">
+	<!-- <div id="selectParent">
 		&nbsp; <input id="ggdo" class="tab-item" type="button" value="경기도" onCLick="location.href='gyeonggido.html'">&nbsp;
 		<input id="gwdo" class="tab-item" type="button" value="강원도" onCLick="location.href='gangwondo.html'">&nbsp;
 		<input id="ccdo" class="tab-item" type="button" value="충청도" onCLick="location.href='chungcheongdo.html'">&nbsp;
 		<input id="jldo" class="tab-item" type="button" value="전라도" onCLick="location.href='jeollado.html'">&nbsp;
 		<input id="gsdo" class="tab-item" type="button" value="경상도" onCLick="location.href='gyeongsangdo.html'">&nbsp;
 		<input id="jjdo" class="tab-item" type="button" value="제주도" onCLick="location.href='jejudo.html'">&nbsp;
-	</div>
+	</div> -->
+	<aside class="aside">
+			<jsp:include page="accomodation_sidebar.jsp"/>
+		</aside>
+		<section>
 	<br>
 	<br>
 	<div id="photoParent">
@@ -109,5 +113,7 @@ margin: auto;
 		<img class="photo" alt="경상도" src="./img/gyeongs1.jpg">
 		<img class="photo" alt="제주도" src="./img/jeju2.jpg">
 	</div>
+	</section>
+	<footer class="footer"><jsp:include page="../include/footer.jsp" /></footer>
 </body>
 </html>

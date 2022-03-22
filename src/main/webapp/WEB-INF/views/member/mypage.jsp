@@ -124,5 +124,6 @@
 
     <script src="js/mypage.js"></script>
     <script src="js/changeInfo.js"></script>
+    <footer class="footer"><jsp:include page="../include/footer.jsp" /></footer>
 </body>
 </html>

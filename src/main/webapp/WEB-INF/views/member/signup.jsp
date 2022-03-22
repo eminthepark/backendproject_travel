@@ -69,7 +69,7 @@
     </contant>
   </div>
   <script src="js/login.js"></script>
-
+<footer class="footer"><jsp:include page="../include/footer.jsp" /></footer>
 </body>
 
 </html>

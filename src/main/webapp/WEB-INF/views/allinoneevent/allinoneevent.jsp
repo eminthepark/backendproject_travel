@@ -52,10 +52,12 @@
       </nav>
 
     <!-- 본 내용 시작 -->
-    <section class="title">
+    <header class="title">
         <h2>올인원 가성비 이벤트</h2>
-    </section>
-    
+    </header>
+    <aside class="aside">
+			<jsp:include page="allinoneevent_sidebar.jsp"/>
+		</aside>
     <section class="tabs">
         <div class="container">
             <div id="tab-1" class="tab-item tab-background">
@@ -332,5 +334,6 @@
     
 }) // ready end
     </script>
+    <footer class="footer"><jsp:include page="../include/footer.jsp" /></footer>
 </body>
 </html>

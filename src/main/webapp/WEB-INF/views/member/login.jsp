@@ -65,7 +65,7 @@
     <footer><a href='signup.html' style="text-decoration:none">아이디가 없으신가요?</a></footer>
   </div>
 <script src="js/login.js"></script>
-
+<footer class="footer"><jsp:include page="../include/footer.jsp" /></footer>
 </body>
 
 </html>
